@@ -148,7 +148,7 @@ const HeroSection = () => (
     <div
       className="absolute inset-0 bg-cover bg-center bg-fixed"
       style={{
-        backgroundImage: `images/portada.jpeg`,
+        backgroundImage: `images\portada.jpeg`,
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
@@ -180,7 +180,7 @@ const FeaturedDish = () => (
     <div className="max-w-4xl mx-auto px-4 text-center">
       <CactusSVG className="h-16 w-10 text-[#6b7c4f] mx-auto mb-6" />
       <h2 className="font-cinzel text-3xl md:text-4xl text-[#c4663a] tracking-[0.05em] mb-2">
-        RESTAURANT MEXICAN&apos;O
+        MEXICAN&apos;O
       </h2>
       <h3 className="font-cinzel text-2xl md:text-3xl text-[#46403c] tracking-[0.05em] mb-12">
         LYON
@@ -189,7 +189,7 @@ const FeaturedDish = () => (
       <div className="relative bg-[#46403c] rounded-lg overflow-hidden shadow-2xl max-w-xl mx-auto">
         <div className="aspect-square relative">
           <Image
-            src="/images/PLATO MIXTO.jpeg"
+            src="images\PLATO MIXTO.jpeg"
             alt="Tacos al Pastor"
             fill
             className="object-cover"
@@ -220,7 +220,7 @@ const AboutSection = () => (
         <div className="relative">
           <div className="absolute -left-4 top-0 bottom-0 w-1/2 hidden lg:block">
             <Image
-              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80"
+              src="images\pico de gallo.jpeg"
               alt="Restaurant Interior"
               fill
               className="object-cover rounded-lg"
