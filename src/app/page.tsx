@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { url } from "inspector";
 
 // Decorative Cactus SVG Component
 const CactusSVG = ({ className = "" }: { className?: string }) => (
@@ -148,7 +149,7 @@ const HeroSection = () => (
     <div
       className="absolute inset-0 bg-cover bg-center bg-fixed"
       style={{
-        backgroundImage: `images\portada.jpeg`,
+        backgroundImage: `url('images/portada.jpeg')`,
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
@@ -220,7 +221,7 @@ const AboutSection = () => (
         <div className="relative">
           <div className="absolute -left-4 top-0 bottom-0 w-1/2 hidden lg:block">
             <Image
-              src="images\pico de gallo.jpeg"
+              src="images/pico de gallo.jpeg"
               alt="Restaurant Interior"
               fill
               className="object-cover rounded-lg"
