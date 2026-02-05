@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ClientBody } from "./ClientBody";
+import { ClientBody } from "./ClientBody.tsx";
 
 export const metadata: Metadata = {
   title: "Restaurant Mexican'o Lyon",
