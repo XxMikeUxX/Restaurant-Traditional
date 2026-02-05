@@ -189,7 +189,7 @@ const FeaturedDish = () => (
       <div className="relative bg-[#46403c] rounded-lg overflow-hidden shadow-2xl max-w-xl mx-auto">
         <div className="aspect-square relative">
           <Image
-            src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=600&q=80"
+            src="/images/PLATO MIXTO.jpeg"
             alt="Tacos al Pastor"
             fill
             className="object-cover"
@@ -197,7 +197,7 @@ const FeaturedDish = () => (
         </div>
         <div className="p-6 text-center">
           <h3 className="font-cinzel text-2xl text-[#dbc6a3] tracking-[0.1em] mb-2">
-            TACOS AL PASTOR
+            PLATO MIXTO
           </h3>
           <Link
             href="#menus"

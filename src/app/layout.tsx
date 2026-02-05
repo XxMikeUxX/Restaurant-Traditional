@@ -3,7 +3,7 @@ import "./globals.css";
 import { ClientBody } from "./clientBody";
 
 export const metadata: Metadata = {
-  title: "Restaurant Mexican'o Lyon",
+  title: "Mexican'o Lyon",
   description: "Restaurant Mexican'o Lyon. Nous proposons une cuisine d'instinct mexicaine, qui est basée sur le respect, et la saisonnalité des produits. Cuisine gastronomique mexicaine au coeur de Lyon.",
   keywords: "restaurant mexicain, Lyon, tacos, gastronomie mexicaine, fine dining, Mexican'o",
   openGraph: {
