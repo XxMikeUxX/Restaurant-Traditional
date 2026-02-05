@@ -546,8 +546,8 @@ const ContactSection = () => (
             </svg>
           </div>
           <p className="text-[#46403c]">
-            134 rue Duguesclin<br />
-            69006 Lyon
+            56 Av. paul Santi<br />
+            69008 Lyon
           </p>
         </div>
       </div>
@@ -555,7 +555,7 @@ const ContactSection = () => (
       {/* Map */}
       <div className="w-full h-[400px] rounded-lg overflow-hidden">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.5!2d4.85!3d45.77!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDQ2JzEyLjAiTiA0wrA1MScwMC4wIkU!5e0!3m2!1sfr!2sfr!4v1234567890"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.228192614614!2d4.850999315546!3d45.7679999791403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea6615d8c1b5%3A0x9e2b5f5f5f5f5f5f!2s56%20Av.%20Paul%20Santy%2C%2069008%20Lyon!5e0!3m2!1ses!2ses!4v1738830000000"
           width="100%"
           height="100%"
           style={{ border: 0 }}
