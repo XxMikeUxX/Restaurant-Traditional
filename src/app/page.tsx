@@ -280,7 +280,7 @@ const AboutSection = () => (
               />
             </div>
             <h4 className="font-cinzel text-lg text-[#46403c] mt-4 tracking-wider">
-              CARLOS MARTINEZ
+              DIA DE LOS MUERTOS
             </h4>
             <p className="text-[#8c6554] text-sm">DECORATION</p>
           </div>
@@ -290,7 +290,7 @@ const AboutSection = () => (
         <div className="text-center lg:text-left">
           <CactusSVG className="h-12 w-7 text-[#6b7c4f] mx-auto lg:mx-0 mb-4" />
           <h3 className="font-cinzel text-2xl text-[#c4663a] tracking-[0.05em] mb-6">
-            COTE CUISINE
+            A PROPOS
           </h3>
           <div className="text-[#46403c] text-justify space-y-4 text-sm leading-relaxed">
             <p>
@@ -439,7 +439,7 @@ const MenusSection = () => (
             <div>
               <ChileSVG className="h-6 w-2 text-[#c4663a] mx-auto mb-2" />
               <h5 className="font-cinzel text-[#46403c] mb-2">ENTREE</h5>
-              <p className="text-[#8c6554]">Tostada de Atun, Chile Guajillo</p>
+              <p className="text-[#8c6554]">Empanadas, melange Frite</p>
               <p className="text-[#8c6554] my-2">Ou</p>
               <p className="text-[#8c6554]">Quesadilla Flor de Calabaza</p>
             </div>
