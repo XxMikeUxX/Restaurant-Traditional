@@ -246,7 +246,7 @@ const AboutSection = () => (
                 Le restaurant Mexican&apos;o vous invite a decouvrir son univers gastronomique, l&apos;association d&apos;une cuisine raffinee, realisee par un chef passionne et d&apos;un environnement chaleureux et convivial.
               </p>
               <p>
-                Pour la carte des boissons, nous privilegions les mezcals et tequilas selectionnees soigneusement.
+                Pour notre carte, nous vous offre differentes options de plats et de boissons.
               </p>
               <p>
                 Nous proposons une cuisine d&apos;instinct, qui est basee sur le respect, et la saisonnalite des produits.
@@ -259,24 +259,21 @@ const AboutSection = () => (
         <div className="text-center">
           <CactusSVG className="h-12 w-7 text-[#6b7c4f] mx-auto mb-4" />
           <h3 className="font-cinzel text-2xl text-[#c4663a] tracking-[0.05em] mb-6">
-            COTE SALLE
+            UN PEU DE NOUS
           </h3>
           <div className="text-[#46403c] text-justify space-y-4 text-sm leading-relaxed">
             <p>
-              Apres avoir obtenu une licence de management en hotellerie internationale en 2015 a l&apos;ecole hoteliere de Lyon, Carlos part travailler dans un restaurant gastronomique a Mexico City.
+              Dans un cadre coloré, chaleureux et inspiré des traditions mexicaines, nous accueillons nos clients pour un véritable voyage culinaire : tacos, burritos, enchiladas, quesadillas, guacamole maison et généreux plateaux à partager sont au cœur de notre carte. Les portions sont copieuses, les saveurs équilibrées.
             </p>
             <p>
-              De retour sur Lyon, c&apos;est au sein du restaurant etoile du chef renomme qu&apos;il put aiguiser son sens du detail, avant de pouvoir gerer, en 2018, la salle de son propre etablissement.
-            </p>
-            <p>
-              L&apos;Histoire du Mexican&apos;o commence le 15 Mars 2020, avec son associe Miguel, en cuisine, qui partage la meme passion pour la gastronomie mexicaine authentique.
+              Mexican&apos;o est un établissement 100% halal, sans alcool, ce qui en fait une adresse idéale pour les familles, les groupes d&apos;amis et les événements privés souhaitant profiter d&apos;un moment festif en toute sérénité. Notre équipe met un point d&apos;honneur à offrir un accueil chaleureux, un service attentif et une ambiance décontractée, régulièrement salués par notre clientèle lyonnaise.
             </p>
           </div>
           <div className="mt-8">
             <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-[#c4663a]/20">
               <Image
-                src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=200&q=80"
-                alt="Carlos - Gérant"
+                src="images/boo.jpg"
+                alt="Decoration"
                 width={128}
                 height={128}
                 className="object-cover w-full h-full"
@@ -285,7 +282,7 @@ const AboutSection = () => (
             <h4 className="font-cinzel text-lg text-[#46403c] mt-4 tracking-wider">
               CARLOS MARTINEZ
             </h4>
-            <p className="text-[#8c6554] text-sm">Gerant</p>
+            <p className="text-[#8c6554] text-sm">DECORATION</p>
           </div>
         </div>
 
@@ -297,29 +294,26 @@ const AboutSection = () => (
           </h3>
           <div className="text-[#46403c] text-justify space-y-4 text-sm leading-relaxed">
             <p>
-              Apres avoir appris aupres de grands chefs comme Enrique Olvera a Mexico, Daniela Soto-Innes a New York, il revient a Lyon pour creer sa propre identite culinaire.
+              Situé au 56 avenue Paul Santy, notre restaurant est facilement accessible en voiture, en bus ou en tramway et propose également la vente à emporter et la livraison via des plateformes partenaires. Ouvert depuis 2020, Mexican&apos;o s&apos;est imposé comme une adresse de référence pour découvrir ou redécouvrir la cuisine mexicaine dans sa version halal, généreuse et conviviale.
             </p>
             <p>
-              En 2018, il rejoint l&apos;equipe du Mexican&apos;o, apportant avec lui toute son expertise et sa passion pour les saveurs authentiques du Mexique.
-            </p>
-            <p>
-              Son identite culinaire s&apos;est affirmee apres son passage dans les cuisines de Pujol, avec le travail autour des chiles, epices et herbes aromatiques mexicaines.
+              Nous serions ravis de vous accueillir prochainement et de vous faire partager l&apos;esprit de Mexican&apos;o : une cuisine de partage, authentique et gourmande, au service de vos moments de convivialité.
             </p>
           </div>
           <div className="mt-8">
             <div className="w-32 h-32 mx-auto lg:mx-0 rounded-full overflow-hidden border-4 border-[#c4663a]/20">
               <Image
-                src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=200&q=80"
-                alt="Miguel - Chef"
+                src="images/deco.jpg"
+                alt="deco"
                 width={128}
                 height={128}
                 className="object-cover w-full h-full bg-[#46403c]"
               />
             </div>
             <h4 className="font-cinzel text-lg text-[#46403c] mt-4 tracking-wider">
-              MIGUEL SANCHEZ
+              DIA DE LOS MUERTOS
             </h4>
-            <p className="text-[#8c6554] text-sm">Chef</p>
+            <p className="text-[#8c6554] text-sm">Deco</p>
           </div>
         </div>
       </div>
@@ -339,25 +333,25 @@ const MenusSection = () => (
         Nous proposons une cuisine d&apos;instinct, qui est basee sur le respect, et la saisonnalite des produits.
       </p>
       <p className="text-[#8c6554] text-sm mb-4">
-        Le menu du dejeuner change toutes les deux semaines
+        Les dessert se demmand sur le restaurant.
       </p>
       <p className="text-[#8c6554] text-sm mb-12">
-        Les plats du menu du diner changent au gre des produits et des saisons.
+        Les plats sont 100% hallal.
       </p>
 
       {/* Menu Déjeuner */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
         <div className="relative h-[400px] lg:h-auto rounded-lg overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=600&q=80"
-            alt="Menu Déjeuner"
+            src="images/birrias.mp4"
+            alt="birrias"
             fill
             className="object-cover"
           />
         </div>
         <div className="menu-card rounded-lg p-8 text-left">
           <h3 className="font-cinzel text-2xl text-[#c4663a] text-center mb-2">
-            - MENU DEJEUNER -
+            - Entrées -
           </h3>
           <p className="text-center text-sm text-[#8c6554] mb-6">
             Du Lundi 2 Fevrier jusqu&apos;au Vendredi 13 Fevrier 2026
@@ -412,7 +406,7 @@ const MenusSection = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="relative h-[400px] lg:h-auto rounded-lg overflow-hidden lg:order-2">
           <Image
-            src="https://images.unsplash.com/photo-1613514785940-daed07799d9b?w=600&q=80"
+            src="images/melange.jpg"
             alt="Menu Dîner"
             fill
             className="object-cover"
@@ -420,7 +414,7 @@ const MenusSection = () => (
         </div>
         <div className="menu-card rounded-lg p-8 text-left lg:order-1">
           <h3 className="font-cinzel text-2xl text-[#c4663a] text-center mb-2">
-            - MENU DINER -
+            - LES PLATS -
           </h3>
           <p className="text-center text-sm text-[#8c6554] mb-6">
             Janvier 2026
@@ -429,15 +423,15 @@ const MenusSection = () => (
           <div className="space-y-4 mb-8">
             <div className="text-center">
               <h4 className="font-cinzel text-lg text-[#46403c]">
-                MENU ATSINA <ChileSVG className="inline h-5 w-2 text-[#c4663a]" /> 42 euros <ChileSVG className="inline h-5 w-2 text-[#c4663a]" />
+                PLATO MIXTO <ChileSVG className="inline h-5 w-2 text-[#c4663a]" /> 60 euros <ChileSVG className="inline h-5 w-2 text-[#c4663a]" />
               </h4>
-              <p className="text-sm text-[#8c6554]">(Entree, Plat, Dessert + Interludes)</p>
+              <p className="text-sm text-[#8c6554]">(Quesadilla x2, papadzule x2)</p>
             </div>
             <div className="text-center">
               <h4 className="font-cinzel text-lg text-[#46403c]">
-                MENU MEXICAN&apos;O <ChileSVG className="inline h-5 w-2 text-[#c4663a]" /> 50 euros <ChileSVG className="inline h-5 w-2 text-[#c4663a]" />
+                PLATO MIXTO X 3 <ChileSVG className="inline h-5 w-2 text-[#c4663a]" /> 76 euros <ChileSVG className="inline h-5 w-2 text-[#c4663a]" />
               </h4>
-              <p className="text-sm text-[#8c6554]">(Entree, Deux plats, Dessert + Interludes)</p>
+              <p className="text-sm text-[#8c6554]">(quesadilla complets, Papadzule x3)</p>
             </div>
           </div>
 
@@ -527,7 +521,7 @@ const ContactSection = () => (
             </svg>
           </div>
           <a href="mailto:contact@mexicano-restaurant-lyon.fr" className="text-[#46403c] hover:text-[#c4663a] transition-colors">
-            contact@mexicano-restaurant-lyon.fr
+            mexicanolyon8@gmail.com
           </a>
         </div>
 
@@ -538,8 +532,8 @@ const ContactSection = () => (
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
           </div>
-          <a href="tel:0478523031" className="text-[#46403c] hover:text-[#c4663a] transition-colors">
-            04 78 52 30 31
+          <a href="tel:0665367737" className="text-[#46403c] hover:text-[#c4663a] transition-colors">
+            06 65 36 77 37
           </a>
         </div>
 
