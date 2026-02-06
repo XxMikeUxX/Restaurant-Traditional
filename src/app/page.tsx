@@ -354,45 +354,45 @@ const MenusSection = () => (
             - Entrées -
           </h3>
           <p className="text-center text-sm text-[#8c6554] mb-6">
-            Du Lundi 2 Fevrier jusqu&apos;au Vendredi 13 Fevrier 2026
+            Pour tout le monde
           </p>
 
           <div className="space-y-4 mb-8">
             <div className="text-center">
               <h4 className="font-cinzel text-lg text-[#46403c]">
-                MENU ATSINA <ChileSVG className="inline h-5 w-2 text-[#c4663a]" /> 28 euros <ChileSVG className="inline h-5 w-2 text-[#c4663a]" />
+                BIRRIA <ChileSVG className="inline h-5 w-2 text-[#c4663a]" /> 20 euros <ChileSVG className="inline h-5 w-2 text-[#c4663a]" />
               </h4>
-              <p className="text-sm text-[#8c6554]">(Entree, Plat, Dessert) (Sauf Jours feries)</p>
+              <p className="text-sm text-[#8c6554]">(Avec buillon, Citron, Coriandre et oignon)</p>
             </div>
             <div className="text-center">
               <h4 className="font-cinzel text-lg text-[#46403c]">
-                MENU MEXICAN&apos;O <ChileSVG className="inline h-5 w-2 text-[#c4663a]" /> 35 euros <ChileSVG className="inline h-5 w-2 text-[#c4663a]" />
+                Papadzule <ChileSVG className="inline h-5 w-2 text-[#c4663a]" /> 17 euros <ChileSVG className="inline h-5 w-2 text-[#c4663a]" />
               </h4>
-              <p className="text-sm text-[#8c6554]">(Entree, Plat, Dessert + Interludes)</p>
+              <p className="text-sm text-[#8c6554]">(Avec sauce Chipotle et fromage gratinée)</p>
             </div>
           </div>
 
           <div className="grid grid-cols-3 gap-4 text-center text-sm">
             <div>
               <ChileSVG className="h-6 w-2 text-[#c4663a] mx-auto mb-2" />
-              <h5 className="font-cinzel text-[#46403c] mb-2">ENTREE</h5>
-              <p className="text-[#8c6554]">Ceviche de Dorade, Avocat, Coriandre</p>
-              <p className="text-[#8c6554] my-2">Ou</p>
-              <p className="text-[#8c6554]">Guacamole Frais, Totopos Maison</p>
+              <h5 className="font-cinzel text-[#46403c] mb-2">......</h5>
+              <p className="text-[#8c6554]">.......</p>
+              <p className="text-[#8c6554] my-2">..</p>
+              <p className="text-[#8c6554]">...........</p>
             </div>
             <div>
               <ChileSVG className="h-6 w-2 text-[#c4663a] mx-auto mb-2" />
-              <h5 className="font-cinzel text-[#46403c] mb-2">PLAT</h5>
-              <p className="text-[#8c6554]">Tacos al Pastor, Ananas, Oignon</p>
-              <p className="text-[#8c6554] my-2">Ou</p>
-              <p className="text-[#8c6554]">Mole Negro, Poulet, Riz</p>
+              <h5 className="font-cinzel text-[#46403c] mb-2">....</h5>
+              <p className="text-[#8c6554]">.........</p>
+              <p className="text-[#8c6554] my-2">..</p>
+              <p className="text-[#8c6554]">............</p>
             </div>
             <div>
               <ChileSVG className="h-6 w-2 text-[#c4663a] mx-auto mb-2" />
-              <h5 className="font-cinzel text-[#46403c] mb-2">DESSERT</h5>
-              <p className="text-[#8c6554]">Churros, Chocolat, Cannelle</p>
-              <p className="text-[#8c6554] my-2">Ou</p>
-              <p className="text-[#8c6554]">Flan Napolitano, Caramel</p>
+              <h5 className="font-cinzel text-[#46403c] mb-2">......</h5>
+              <p className="text-[#8c6554]">.......</p>
+              <p className="text-[#8c6554] my-2">..</p>
+              <p className="text-[#8c6554]">..........</p>
             </div>
           </div>
 
@@ -440,22 +440,22 @@ const MenusSection = () => (
               <ChileSVG className="h-6 w-2 text-[#c4663a] mx-auto mb-2" />
               <h5 className="font-cinzel text-[#46403c] mb-2">ENTREE</h5>
               <p className="text-[#8c6554]">Empanadas, melange Frite</p>
-              <p className="text-[#8c6554] my-2">Ou</p>
-              <p className="text-[#8c6554]">Quesadilla Flor de Calabaza</p>
+              <p className="text-[#8c6554] my-2">..</p>
+              <p className="text-[#8c6554]">...........</p>
             </div>
             <div>
               <ChileSVG className="h-6 w-2 text-[#c4663a] mx-auto mb-2" />
-              <h5 className="font-cinzel text-[#46403c] mb-2">PLAT</h5>
-              <p className="text-[#8c6554]">Carnitas, Salsa Verde, Cilantro</p>
-              <p className="text-[#8c6554] my-2">Ou</p>
-              <p className="text-[#8c6554]">Pescado a la Veracruzana</p>
+              <h5 className="font-cinzel text-[#46403c] mb-2">....</h5>
+              <p className="text-[#8c6554]">........</p>
+              <p className="text-[#8c6554] my-2">..</p>
+              <p className="text-[#8c6554]">........</p>
             </div>
             <div>
               <ChileSVG className="h-6 w-2 text-[#c4663a] mx-auto mb-2" />
-              <h5 className="font-cinzel text-[#46403c] mb-2">DESSERT</h5>
-              <p className="text-[#8c6554]">Tres Leches, Fraises</p>
-              <p className="text-[#8c6554] my-2">Ou</p>
-              <p className="text-[#8c6554]">Helado de Mezcal, Sal de Gusano</p>
+              <h5 className="font-cinzel text-[#46403c] mb-2">.......</h5>
+              <p className="text-[#8c6554]">...........</p>
+              <p className="text-[#8c6554] my-2">..</p>
+              <p className="text-[#8c6554]">....</p>
             </div>
           </div>
 
@@ -485,13 +485,13 @@ const ReservationSection = () => (
       <div className="space-y-2 mb-8 italic">
         <p className="text-lg">Ouverture</p>
         <p>
-          <span className="font-semibold">Pour le dejeuner :</span> Lundi au Vendredi
+          <span className="font-semibold">Le matin :</span> Mercredi au Samedi
         </p>
         <p>
-          <span className="font-semibold">Pour le diner :</span> Lundi, Mardi, Jeudi et Vendredi
+          <span className="font-semibold">Pour le soir :</span> Mardi au Dimanche
         </p>
         <p>
-          <span className="font-semibold">Fermeture :</span> Samedi, Dimanche et Mercredi Soir
+          <span className="font-semibold">Fermeture :</span> Lundi
         </p>
       </div>
       <Link
