@@ -219,7 +219,7 @@ const AboutSection = () => (
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
         {/* Le Restaurant */}
         <div className="relative">
-          <div className="absolute -left-2 top-0 bottom-0 w-1/2 hidden lg:block">
+          <div className="absolute -left-8 top-0 bottom-0 w-1/2 hidden lg:block">
             <Image
               src="images/pico de gallo.jpeg"
               alt="Restaurant Interior"
