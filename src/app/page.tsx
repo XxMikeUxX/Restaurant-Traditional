@@ -219,7 +219,7 @@ const AboutSection = () => (
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
         {/* Le Restaurant */}
         <div className="relative">
-          <div className="absolute -left-4 top-0 bottom-0 w-1/2 hidden lg:block">
+          <div className="absolute -left-2 top-0 bottom-0 w-1/2 hidden lg:block">
             <Image
               src="images/pico de gallo.jpeg"
               alt="Restaurant Interior"
@@ -521,7 +521,7 @@ const ContactSection = () => (
             </svg>
           </div>
           <a href="mailto:contact@mexicano-restaurant-lyon.fr" className="text-[#46403c] hover:text-[#c4663a] transition-colors">
-            mexicanolyon8@gmail.com
+            mexicanol8@icloud.com
           </a>
         </div>
 
@@ -624,7 +624,7 @@ const Footer = () => (
               </svg>
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/mexicano_lyon_8/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 flex items-center justify-center hover:text-[#dbc6a3] transition-colors"
